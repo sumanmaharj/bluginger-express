@@ -1,0 +1,59 @@
+.form-group{
+  margin-bottom: rem(20px);
+  label{
+    color: $secondary;
+    font-weight: 400;
+  }
+  .form-control{
+
+    border-radius: rem(4px);
+    height: rem(40px);
+    font-size: rem(14px);
+    &:focus,
+    &:active{
+        box-shadow: none;
+        border-color: $gray-500;
+    }
+    &::placeholder{
+      font-size: rem(12px);
+      font-weight: 400;
+    }
+
+}
+textarea.form-control{
+  height: rem(140px);
+}
+}
+.form-wrapper{
+  .nav-pills{
+    .nav-link {
+      color: $secondary;
+      &.active{
+        color: #fff;
+      }
+    }
+  }
+}
+
+.input-group{
+  position: relative;
+  &-text{
+    position: absolute;
+    left: 0;
+    z-index: 10;
+    height: 100%;
+    background-color: transparent;
+    border:none;
+    color: $gray-600;
+
+  }
+  .form-control{
+    height: rem(40px);
+    padding-left: rem(45px);
+    border-radius: 4px;
+    &::placeholder{
+      font-size: 14px;
+    }
+  }
+}
+

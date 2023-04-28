@@ -1,0 +1,18 @@
+.spacing {
+  margin-bottom: 80px;
+  &-py {
+    &--40 {
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+  }
+}
+
+.bg-cover {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.subheading {
+  font-family: $font-family-base;
+}

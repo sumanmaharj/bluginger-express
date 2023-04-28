@@ -1,0 +1,44 @@
+.footer{
+    background-color: #303030;
+    padding: rem(80px) 0 rem(30px);
+    color: #fff;
+    &-block{
+        margin-bottom: rem(40px);
+        &:last-child{
+            margin-bottom: 0;
+        }
+        
+        &__nav{
+            ul{
+                li{
+                    a{
+                        color: #fff;
+                        transition: $transition-default;
+                        &:hover{
+                            color: $primary;
+                        }
+                    }
+                }
+            }
+        }
+        &__social{
+            li{
+                margin-right: rem(5px);
+                a{
+                    font-size: rem(30px);
+                    color: $primary;
+                }
+            }
+        }
+        
+    }
+    &-bottom{
+        margin-top: rem(50px);
+        a{
+            color: #0ac5f3;
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}

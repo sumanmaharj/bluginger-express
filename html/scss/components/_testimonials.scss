@@ -1,0 +1,33 @@
+.testimonial{
+    &-item{
+        background-color: $white;
+        padding: rem(30px);
+    }
+    &-avatar{
+        width: rem(120px);
+        height: rem(120px);
+        overflow: hidden;
+        border-radius: 100%;
+        transform: translateX(50px);
+        img{
+            width: auto;
+            max-width: 100%;
+        }
+    }
+
+    .owl-dots{
+        text-align: left;
+        .owl-dot {
+            &.active{
+                span{
+                    
+                    background-color: $primary;
+                }
+            }
+            span{
+                width: rem(15px);
+                height: rem(15px);
+            }
+        }
+    }
+}
